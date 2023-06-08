@@ -34,6 +34,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
+
+.contenedorNav{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
 .fondito{
   height: 35vh;
   position: relative;
@@ -62,6 +69,7 @@ body {
 }
 
 #textoFondo:hover{
+  -webkit-text-stroke: 0px;
   -webkit-text-fill-color: #f15a24;
   cursor: pointer;
 }
@@ -197,6 +205,7 @@ header {
   background: #1a1a1a7f;
 }
 header .navbar {
+  left: 50px;
   height: auto;
   margin-bottom: 0;
 }
