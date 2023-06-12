@@ -326,6 +326,7 @@ header .navbar {
   width: 25px;
 }
 
+
 /* =================
    Home page style
    ================= */
@@ -395,6 +396,10 @@ header .navbar {
   margin-bottom: 24px;
 }
 
+#features .feature-block .icon-box img:hover {
+  color: white;
+}
+
 #features .feature-block .icon-box i {
   display: inline-block;
   line-height: 1;
@@ -405,7 +410,7 @@ header .navbar {
 
 #features .feature-block h4 {
   font-size: 20px;
-  color: #333;
+  color: #ffffff;
   position: relative;
   text-transform: none;
   margin-bottom: 10px;
